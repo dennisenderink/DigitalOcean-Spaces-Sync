@@ -1,5 +1,5 @@
 {
-  "name": "dennisenderink/do-spaces-wordpress-sync",
+  "name": "dennisenderink/do-spaces-sync",
   "type": "wordpress-plugin",
   "description": "This WordPress plugin syncs your media library with DigitalOcean Spaces Container.",
   "keywords": [
@@ -20,8 +20,6 @@
     }
   ],
   "require": {
-    "php": ">=5.3.3",
-    "katzgrau/klogger": "dev-master",
-    "league/flysystem-aws-s3-v3": "^1.0"
+    "php": ">=5.3.3"
   }
 }
